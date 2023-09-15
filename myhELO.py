@@ -336,7 +336,7 @@ def generate_response(api_details):
 
 def getResponse(question):
     # Define the number of similar events to retrieve
-    k = 4
+    k = 3
 
     # Load the data
     data = pd.DataFrame(DATA)
