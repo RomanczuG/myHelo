@@ -196,20 +196,7 @@ def getResponse(question):
 
 
 
-with st.sidebar:
 
-    st.markdown("""
-# MVP showcasing implementation of Chatbot for myhELO API
-### Not made for public use    
-#### Here you can see API Docs            
-                """)
-        
-    st.json(DATA)
-
-
-st.markdown("""
-## Ask a question about api call
-                """)
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -478,3 +465,18 @@ DATA = [
         "description": "Retrieve details of a specific Provenance based on its ID."
     }
 ]
+
+with st.sidebar:
+
+    st.markdown("""
+# MVP showcasing implementation of Chatbot for myhELO API
+### Not made for public use    
+#### Here you can see API Docs            
+                """)
+        
+    st.json(DATA)
+
+
+st.markdown("""
+## Ask a question about api call
+                """)
