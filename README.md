@@ -9,4 +9,4 @@ This repository is a showcase of myhELO's public API documentation. It is a simp
 
 ## Getting Started
 
-Open link to [myhELO Public API DOCS](https://myhelo.streamlit.app/)
+Open link to [myhELO MVP Chat](https://myhelo.streamlit.app/)
