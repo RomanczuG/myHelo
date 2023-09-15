@@ -64,9 +64,10 @@ def preprocess(text, text_type='description'):
     else:
         return preprocess_description(text)
     
-# import json file
-with open('myHelo_API.json') as f:
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'myHelo_API.json')
+with open(file_path) as f:
     DATA = json.load(f)
+
 
 def get_embeddings(texts):
     # Preprocess the texts
